@@ -10,13 +10,21 @@
 .App-header {
   background: #546867;
   max-height: fit-content;
+  overflow: hidden;
+  width: auto !important;
 }
 
 .App-hero {
   max-width: 1508px;
+  overflow: hidden;
+  width: auto !important;
 }
 
 .App-h1 {
-  
+  color: #ffffff;
+  display: block;
+  font-family:fantasy;
+  margin-top: -900px;
+  text-align: center;
   text-rendering: optimizeLegibility;
 }

@@ -11,9 +11,7 @@ function App() {
         </header>
         <hero>
           <img src={hero} className="App-hero" alt="yoga balanced in nature" />
-          <h1>
-            Injury and Illness Recovery
-          </h1>
+          <h1 className="App-h1">Injury and Illness Recovery</h1>
         </hero>
       </div>
     </div>
