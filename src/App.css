@@ -1,9 +1,13 @@
-.App{
-  color:#506463;
+.App {
+  color: #506463;
 }
 .App-logo {
   border-radius: 10px;
-  display: block;
   margin: 0 auto;
-  max-width: 350px;
+  max-width: 200px;
+}
+
+.App-header {
+  background: #546867;
+  max-height: fit-content;
 }
