@@ -11,3 +11,12 @@
   background: #546867;
   max-height: fit-content;
 }
+
+.App-hero {
+  max-width: 1508px;
+}
+
+.App-h1 {
+  
+  text-rendering: optimizeLegibility;
+}
