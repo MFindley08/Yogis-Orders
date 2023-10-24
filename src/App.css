@@ -17,14 +17,18 @@
 .App-hero {
   max-width: 1508px;
   overflow: hidden;
-  width: auto !important;
+  max-width: 100%;
+  height: auto;
 }
 
 .App-h1 {
   color: #ffffff;
   display: block;
-  font-family:fantasy;
+  font-family: fantasy;
   margin-top: -900px;
   text-align: center;
   text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 960px) {
 }
