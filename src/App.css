@@ -9,7 +9,7 @@ body {
 .App-logo {
   border-radius: 10px;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 300px;
 }
 
 .App-header {
@@ -37,6 +37,6 @@ body {
 
 @media (max-width: 720px) {
   .App-logo {
-    display: block;
+    display: none;
   }
 }
