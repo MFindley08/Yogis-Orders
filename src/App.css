@@ -1,6 +1,10 @@
-.App {
-  color: #506463;
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
+body {
+  background: #506463;
+  font-family: "New Tegomin", serif;
 }
+
 .App-logo {
   border-radius: 10px;
   margin: 0 auto;
@@ -8,7 +12,7 @@
 }
 
 .App-header {
-  background: #546867;
+  background: #506463;
   max-height: fit-content;
   overflow: hidden;
   width: auto !important;
@@ -23,12 +27,15 @@
 
 .App-h1 {
   color: #ffffff;
-  display: block;
-  font-family: fantasy;
-  margin-top: -900px;
+  font-family: "New Tegomin", serif;
+  margin: 10px 0;
+  size: 40px;
   text-align: center;
   text-rendering: optimizeLegibility;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 720px) {
+  .App-logo {
+    display: block;
+  }
 }

@@ -10,12 +10,12 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
         </header>
         <hero>
+          <h1 className="App-h1">Injury and Illness Recovery</h1>
           <img
             src={hero}
             className="App-hero img-fluid"
             alt="yoga balanced in nature hero"
           />
-          <h1 className="App-h1">Injury and Illness Recovery</h1>
         </hero>
       </div>
     </div>
