@@ -1,8 +1,9 @@
+import React from "react";
 import hero from "./hero.png";
-import logo from "./logo.png";
-import alternate from "./logoSmall.png";
 import "./App.css";
+import "./index.css";
 import Container from "react-bootstrap/Container";
+import Navbar from "./Navbar.js";
 
 function App() {
   return (
@@ -10,15 +11,10 @@ function App() {
       <div className="App">
         <div className="container">
           <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <img
-              src={alternate}
-              className="Small-logo img-fluid"
-              alt="small logo"
-            />
+            <Navbar></Navbar>
           </header>
           <hero>
-            <h1 className="App-h1">Injury and Illness Recovery</h1>
+            <h1 className="App-h1">Resilience Peace Recovery</h1>
             <img
               src={hero}
               className="App-hero img-fluid"
